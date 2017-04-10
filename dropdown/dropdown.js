@@ -77,6 +77,7 @@ export var NgbDropdown = (function () {
                         '[class.dropdown]': '!up',
                         '[class.dropup]': 'up',
                         '[class.show]': 'isOpen()',
+                        '[class.open]': 'isOpen()',
                         '(keyup.esc)': 'closeFromOutsideEsc()',
                         '(document:click)': 'closeFromOutsideClick($event)'
                     }
